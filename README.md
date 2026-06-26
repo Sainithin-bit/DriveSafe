@@ -208,17 +208,6 @@ python context/optical_flow.py \
 }
 ```
 
-Related work:
-
-```bibtex
-@inproceedings{artham2026distilling,
-  title     = {Distilling What and Why: Enhancing Driver Intention Prediction with {MLLMs}},
-  author    = {Artham, Sainithin and Dasgupta, Avijit and Gangisetty, Shankar and Jawahar, C. V.},
-  booktitle = {IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
-  year      = {2026}
-}
-```
-
 ---
 
 ## Contact
