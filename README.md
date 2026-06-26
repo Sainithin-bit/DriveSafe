@@ -4,7 +4,7 @@ Official repository for **DriveSafe: A Framework for Risk Detection and Safety S
 
 **Authors:** Sainithin Artham · Avijit Dasgupta · Shankar Gangisetty · C. V. Jawahar
 
-**Model checkpoints (Hugging Face):** [SAINITHIN/DriveSafe_LLaMA_Adapter](https://huggingface.co/SAINITHIN/DriveSafe_LLaMA_Adapter) — LLaMA-Adapter weights for DriveSafe-Finetuned (`DriveSafe_LLaMA_Adapter_8B.pth`).
+**Model checkpoints (Hugging Face):** [SAINITHIN/DriveSafe_LLaMA_Adapter](https://huggingface.co/SAINITHIN/DriveSafe_LLaMA_Adapter) — mirrored [OpenGVLab LLaMA-Adapter](https://github.com/OpenGVLab/LLaMA-Adapter) release checkpoint (`llama_adapter_len10_layer30_release.pth`).
 
 ---
 
@@ -159,11 +159,13 @@ python finetuning/train_llama_adapter.py \
 
 Integrate the generated config with [OpenGVLab/LLaMA-Adapter](https://github.com/OpenGVLab/LLaMA-Adapter).
 
-### Download finetuned adapter
+### Download LLaMA-Adapter checkpoint
+
+Mirrored from [OpenGVLab/LLaMA-Adapter v1.0.0](https://github.com/OpenGVLab/LLaMA-Adapter/releases/tag/v.1.0.0):
 
 ```bash
 huggingface-cli download SAINITHIN/DriveSafe_LLaMA_Adapter \
-  DriveSafe_LLaMA_Adapter_8B.pth adapter_config.json training_config.json \
+  llama_adapter_len10_layer30_release.pth adapter_config.json training_config.json \
   --local-dir checkpoints/DriveSafe_LLaMA_Adapter
 ```
 
@@ -171,7 +173,7 @@ Upload or refresh weights on the Hub:
 
 ```bash
 python scripts/upload_adapter_to_hf.py \
-  --checkpoint /path/to/DriveSafe_LLaMA_Adapter_8B.pth
+  --checkpoint /path/to/llama_adapter_len10_layer30_release.pth
 ```
 
 ---

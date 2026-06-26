@@ -23,7 +23,7 @@ PAPER_HPARAMS = {
     "framework": "LLaMA-Adapter",
     "base_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
     "hf_repo": HF_ADAPTER_REPO,
-    "checkpoint_file": "DriveSafe_LLaMA_Adapter_8B.pth",
+    "checkpoint_file": "llama_adapter_len10_layer30_release.pth",
     "batch_size": 4,
     "learning_rate": 2e-5,
     "weight_decay": 0.01,
