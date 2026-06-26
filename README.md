@@ -185,18 +185,6 @@ python context/optical_flow.py \
 ```
 
 ---
-
-## Relation to Explanation Distillation
-
-| | Explanation Distillation (DriveXplain) | DriveSafe |
-|---|----------------------------------------|-----------|
-| Task | Driver intention + explanation | Risk + safety suggestion |
-| Dataset | DAAD / Brain4Cars / B4c | DRAMA (+ Rank2Tell demo) |
-| LLM output | Maneuver label + explanation | Risk, bbox, keywords → safety |
-| Shared | Optical flow, HybridNets, CenterTrack, VideoLLaMA pipeline |
-
----
-
 ## Citation
 
 ```bibtex
