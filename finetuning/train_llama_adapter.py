@@ -14,10 +14,16 @@ import argparse
 import json
 from pathlib import Path
 
+from drivesafe.constants import HF_ADAPTER_REPO
+
+
+HF_ADAPTER_REPO = "SAINITHIN/DriveSafe_LLaMA_Adapter"
 
 PAPER_HPARAMS = {
     "framework": "LLaMA-Adapter",
     "base_model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "hf_repo": HF_ADAPTER_REPO,
+    "checkpoint_file": "DriveSafe_LLaMA_Adapter_8B.pth",
     "batch_size": 4,
     "learning_rate": 2e-5,
     "weight_decay": 0.01,
@@ -46,7 +52,7 @@ def main() -> None:
         "num_samples": count,
         "notes": (
             "Integrate with OpenGVLab/LLaMA-Adapter using the train_file above. "
-            "Release finetuned checkpoints on Hugging Face when available."
+            f"Publish weights to {HF_ADAPTER_REPO} via scripts/upload_adapter_to_hf.py."
         ),
     }
 

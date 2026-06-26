@@ -6,8 +6,7 @@ from typing import Any
 
 import transformers
 
-
-DEFAULT_MODEL_ID = "meta-llama/Meta-Llama-3.1-8B-Instruct"
+from drivesafe.constants import DEFAULT_MODEL_ID, HF_ADAPTER_REPO, HF_ADAPTER_WEIGHT_FILE
 
 
 def load_prompt_template(path: str | Path) -> str:
