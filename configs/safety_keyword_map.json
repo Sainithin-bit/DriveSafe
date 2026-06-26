@@ -1,0 +1,52 @@
+{
+  "(Must) Stop": [
+    "Pedestrian crossing",
+    "Stopped vehicle",
+    "Crosswalk",
+    "Traffic light red",
+    "Traffic light yellow",
+    "Traffic congestion"
+  ],
+  "Be aware / cautious": [
+    "Cyclist nearby",
+    "Pedestrian nearby",
+    "Traffic signal",
+    "Traffic sign",
+    "Leading vehicle"
+  ],
+  "Slow down": [
+    "Slowing",
+    "Pedestrian ahead",
+    "Heavy traffic",
+    "Cut-in",
+    "Cyclist"
+  ],
+  "Carefully maneuver": [
+    "Parked vehicle",
+    "Traffic cones"
+  ],
+  "Follow the vehicle ahead": [
+    "Vehicle in front",
+    "Following traffic",
+    "Same lane",
+    "Near the intersection"
+  ],
+  "Yield": [
+    "Merging traffic",
+    "Vulnerable Road User (VRU)",
+    "VRU",
+    "Right of way",
+    "Oncoming traffic",
+    "At the crosswalk"
+  ],
+  "Start moving": [
+    "Traffic cleared",
+    "Vehicle ahead moved",
+    "Traffic light green"
+  ],
+  "NA": [
+    "Irrelevant",
+    "Background",
+    "No decision"
+  ]
+}

@@ -1,0 +1,17 @@
+System: You are an expert driving scene summarizer.
+Analyze multimodal driving data and produce a concise, geometry-aware summary.
+
+User: Given the multimodal inputs for a driving video:
+Spatial context (St): {spatial_context}
+Motion dynamics (Mt): {motion_context}
+Depth context (Dt): {depth_context}
+Video description (dv): {video_description}
+
+Generate a structured natural language summary that includes:
+1) Ego vehicle maneuvers (lane changes, turns, stability)
+2) Behavior of surrounding agents (approaching, overtaking, falling behind)
+3) Lane position and road context
+4) Bounding boxes, depth, and motion cues for key objects
+
+The output should be a clear paragraph suitable for downstream reasoning tasks.
+Include object tags with bounding boxes in the format [bbox: xmin, ymin, xmax, ymax] when available.

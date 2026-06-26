@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv/
+output/
+outputs/
+*.log
+.DS_Store
+*.mp4
+*.avi
+checkpoints/
+wandb/

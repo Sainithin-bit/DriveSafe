@@ -1,0 +1,25 @@
+name: drivesafe
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - scikit-learn
+  - opencv
+  - pyyaml
+  - pip:
+      - torch>=2.1.0
+      - torchvision
+      - transformers>=4.47.0
+      - accelerate
+      - peft
+      - huggingface-hub
+      - tqdm
+      - python-dotenv
+      - nltk
+      - pycocoevalcap

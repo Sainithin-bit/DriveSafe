@@ -1,0 +1,70 @@
+{
+  "337b694e-40f3-45f9-b0a7-88a1432ba0b3.mp4": {
+    "60": [
+      "Frame 60: A airplane (ID 1) detected with 81% confidence at position (373.2, 195.5), moving at velocity (0.58, 2.15) pixels per frame.",
+      "Frame 60: A car (ID 2) detected with 70% confidence at position (53.3, 167.1), moving at velocity (1.95, 1.49) pixels per frame.",
+      "Frame 60: A person (ID 3) detected with 52% confidence at position (351.9, 174.2), moving at velocity (0.23, 1.10) pixels per frame.",
+      "Frame 60: A car (ID 4) detected with 51% confidence at position (192.0, 160.0), moving at velocity (-1.11, 3.12) pixels per frame."
+    ],
+    "120": [
+      "Frame 120: A car (ID 2) detected with 78% confidence at position (142.2, 163.5), moving at velocity (-41.74, 5.17) pixels per frame."
+    ],
+    "240": [
+      "Frame 240: A person (ID 5) detected with 61% confidence at position (142.2, 170.7), moving at velocity (45.94, 0.03) pixels per frame.",
+      "Frame 240: A airplane (ID 6) detected with 57% confidence at position (103.1, 181.3), moving at velocity (47.83, 1.63) pixels per frame.",
+      "Frame 240: A truck (ID 7) detected with 53% confidence at position (181.3, 163.5), moving at velocity (49.67, 1.90) pixels per frame.",
+      "Frame 240: A car (ID 8) detected with 47% confidence at position (181.3, 163.5), moving at velocity (49.67, 1.90) pixels per frame.",
+      "Frame 240: A person (ID 9) detected with 37% confidence at position (117.3, 177.8), moving at velocity (46.60, 1.07) pixels per frame.",
+      "Frame 240: A person (ID 10) detected with 36% confidence at position (106.6, 167.1), moving at velocity (47.36, 1.00) pixels per frame.",
+      "Frame 240: A traffic light (ID 11) detected with 30% confidence at position (380.4, 103.1), moving at velocity (40.42, 4.56) pixels per frame."
+    ],
+    "300": [
+      "Frame 300: A truck (ID 12) detected with 44% confidence at position (78.2, 170.7), moving at velocity (20.04, -1.36) pixels per frame.",
+      "Frame 300: A car (ID 13) detected with 43% confidence at position (78.2, 170.7), moving at velocity (20.04, -1.36) pixels per frame.",
+      "Frame 300: A person (ID 14) detected with 38% confidence at position (270.2, 167.1), moving at velocity (35.67, 0.39) pixels per frame.",
+      "Frame 300: A airplane (ID 15) detected with 34% confidence at position (284.4, 170.7), moving at velocity (36.71, 0.64) pixels per frame.",
+      "Frame 300: A car (ID 16) detected with 31% confidence at position (355.5, 145.8), moving at velocity (40.74, 0.79) pixels per frame."
+    ],
+    "360": [
+      "Frame 360: A person (ID 14) detected with 30% confidence at position (259.5, 160.0), moving at velocity (23.69, 4.10) pixels per frame.",
+      "Frame 360: A airplane (ID 17) detected with 62% confidence at position (405.2, 181.3), moving at velocity (8.16, 3.90) pixels per frame.",
+      "Frame 360: A person (ID 18) detected with 53% confidence at position (391.0, 167.1), moving at velocity (15.36, 4.14) pixels per frame.",
+      "Frame 360: A person (ID 19) detected with 52% confidence at position (113.8, 160.0), moving at velocity (21.55, 5.39) pixels per frame.",
+      "Frame 360: A person (ID 20) detected with 49% confidence at position (92.4, 152.9), moving at velocity (19.76, 6.84) pixels per frame.",
+      "Frame 360: A car (ID 21) detected with 46% confidence at position (124.4, 170.7), moving at velocity (21.91, 7.80) pixels per frame.",
+      "Frame 360: A airplane (ID 22) detected with 40% confidence at position (21.3, 174.2), moving at velocity (7.74, 5.57) pixels per frame."
+    ],
+    "420": [
+      "Frame 420: A person (ID 23) detected with 61% confidence at position (341.2, 167.1), moving at velocity (-48.34, 3.22) pixels per frame.",
+      "Frame 420: A car (ID 24) detected with 58% confidence at position (35.5, 152.9), moving at velocity (-36.42, 3.14) pixels per frame."
+    ],
+    "480": [
+      "Frame 480: A car (ID 25) detected with 76% confidence at position (99.5, 160.0), moving at velocity (35.35, -4.13) pixels per frame.",
+      "Frame 480: A stop sign (ID 26) detected with 61% confidence at position (433.7, 170.7), moving at velocity (21.33, -7.02) pixels per frame.",
+      "Frame 480: A person (ID 27) detected with 49% confidence at position (135.1, 167.1), moving at velocity (40.02, -4.23) pixels per frame.",
+      "Frame 480: A airplane (ID 28) detected with 37% confidence at position (56.9, 160.0), moving at velocity (34.81, -6.29) pixels per frame.",
+      "Frame 480: A airplane (ID 29) detected with 32% confidence at position (156.4, 170.7), moving at velocity (46.94, -3.69) pixels per frame."
+    ],
+    "540": [
+      "Frame 540: A car (ID 30) detected with 60% confidence at position (223.9, 170.7), moving at velocity (49.17, 3.38) pixels per frame.",
+      "Frame 540: A airplane (ID 31) detected with 59% confidence at position (277.3, 195.5), moving at velocity (49.00, 3.65) pixels per frame.",
+      "Frame 540: A person (ID 32) detected with 58% confidence at position (323.5, 181.3), moving at velocity (52.72, 1.40) pixels per frame.",
+      "Frame 540: A car (ID 33) detected with 58% confidence at position (117.3, 163.5), moving at velocity (44.73, 3.65) pixels per frame.",
+      "Frame 540: A person (ID 34) detected with 50% confidence at position (266.6, 174.2), moving at velocity (52.09, 2.86) pixels per frame.",
+      "Frame 540: A truck (ID 35) detected with 49% confidence at position (56.9, 145.8), moving at velocity (15.92, 1.89) pixels per frame.",
+      "Frame 540: A person (ID 36) detected with 45% confidence at position (248.8, 174.2), moving at velocity (49.20, 2.57) pixels per frame.",
+      "Frame 540: A car (ID 37) detected with 36% confidence at position (131.5, 156.4), moving at velocity (45.94, 3.77) pixels per frame.",
+      "Frame 540: A truck (ID 38) detected with 32% confidence at position (117.3, 163.5), moving at velocity (44.73, 3.65) pixels per frame.",
+      "Frame 540: A airplane (ID 39) detected with 31% confidence at position (440.8, 184.9), moving at velocity (20.38, 3.19) pixels per frame.",
+      "Frame 540: A person (ID 40) detected with 30% confidence at position (248.8, 149.3), moving at velocity (47.58, 3.62) pixels per frame."
+    ],
+    "600": [
+      "Frame 600: A car (ID 33) detected with 50% confidence at position (163.5, 160.0), moving at velocity (-43.25, 3.77) pixels per frame.",
+      "Frame 600: A car (ID 41) detected with 83% confidence at position (373.2, 184.9), moving at velocity (-15.26, 4.94) pixels per frame.",
+      "Frame 600: A car (ID 42) detected with 74% confidence at position (96.0, 174.2), moving at velocity (-42.17, 3.82) pixels per frame.",
+      "Frame 600: A car (ID 43) detected with 40% confidence at position (142.2, 160.0), moving at velocity (-46.07, 4.68) pixels per frame.",
+      "Frame 600: A car (ID 44) detected with 31% confidence at position (149.3, 163.5), moving at velocity (-45.33, 2.91) pixels per frame.",
+      "Frame 600: A person (ID 45) detected with 31% confidence at position (202.6, 163.5), moving at velocity (-39.33, 3.46) pixels per frame."
+    ]
+  }
+}
