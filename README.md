@@ -220,8 +220,3 @@ python context/optical_flow.py \
 
 **Sainithin Artham** · [sainithin.artham@gmail.com](mailto:sainithin.artham@gmail.com)
 
----
-
-## License
-
-Specify in `LICENSE` before public release.
